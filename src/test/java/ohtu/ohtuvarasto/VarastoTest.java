@@ -163,7 +163,7 @@ public class VarastoTest {
         Varasto testivarasto = new Varasto(5, 7);
 
         // saldon pitäisi olla tilavuus, eli 5
-        assertEquals(4, testivarasto.getSaldo(), vertailuTarkkuus);
+        assertEquals(5, testivarasto.getSaldo(), vertailuTarkkuus);
     }
     
     
